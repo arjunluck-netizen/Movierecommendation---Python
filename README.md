@@ -1,2 +1,3 @@
-# ai-movie-recommendation
-Based on your watching history, recommending movies
+# Source
+
+Future reusable preprocessing/model code can be placed here.
