@@ -10,9 +10,9 @@ st.set_page_config(
 
 @st.cache_resource
 def load_artifacts():
-    with open("movies.pkl", "rb") as f:
+    with open("model/movies.pkl", "rb") as f:
         movies = pickle.load(f)
-    with open("https://drive.google.com/file/d/16-lI5UNZyrBsfrzFefl7gPkP1HO4Nznd/view?usp=sharing", "rb") as f:
+    with open("model/similarity.pkl", "rb") as f:
         similarity = pickle.load(f)
     return movies, similarity
 
